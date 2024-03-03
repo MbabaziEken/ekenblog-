@@ -1,8 +1,7 @@
-#slider-container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: absolute;
-    align-content: center;
+.card-body{
+    margin: 0%;
+    padding: 0%;
+    background-color: blueviolet;
+    font-size: xx-large;
+    
 }
