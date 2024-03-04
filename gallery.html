@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-slider</title>
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/syles.css">
+ </head>
+<body>
+    <div w3-include-html="/includes/navbar.html"></div> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/about.html">EKEN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About@</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Posts
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/blog/Christ's.html">Christ's</a></li>
+                <li><a class="dropdown-item" href="/blog/descence.html">Descence</a></li>
+                <li><a class="dropdown-item" href="/blog/technology.html">Technology</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Sidebar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown-toggle">
+            <div class="dropdown-item">
+                <ul>
+                 <li>
+                    <li><a class="dropdown-item" href="/index.html">Home</a>
+                    <li><a class="dropdown-item" href="/about.html">About</a>
+                    <li><a class="dropdown-item" href="/Includes/navbar.html">navbar</a>
+                    <li><a class="dropdown-item" href="/blog/Christ's.html">Christ's</a>
+                    <li><a class="dropdown-item" href="/blog/descence.html">Descence</a>
+                    <li><a class="dropdown-item" href="/blog/technology.html">Technology</a>
+                    <li><a class="dropdown-item" href="/gallery.html">Gallery</a>
+                    <li><a class="dropdown-item" href="/contact-us">Contact us</a>
+                 </li>
+                 </ul>
+      </div>
+    </div>
+
+    <img width="400px" src="/Images/img_1.jpg" class="img-thumbnail" alt="...">
+    <img width="400px" src="/Images/img-3.jpg" class="img-thumbnail" alt="...">
+    <img width="600px" src="/Images/img-4.jpg" class="img-thumbnail" alt="...">
+    <img width="600px" src="Images/img-5.jpg" class="img-thumbnail" alt="...">
+
+
+    <script src="/css/bootstrap/js/bootstrap.bundle.js"></script>
+   </body>
+   </html>

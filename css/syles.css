@@ -27,3 +27,24 @@ h5{
     padding-top: 50px;
     padding-bottom: 25px;
 }
+
+.card{
+    width: fit-content;
+
+}
+
+
+#slider-image{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    overflow: hidden;
+    align-content: center;
+    transition: 0.6s;
+}
+
+footer{
+    text-align: center;
+    
+
+}
