@@ -3,27 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>sidebar</title>
     <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/css/syles.css">
 </head>
 <body>
-    <div w3-include-html="/includes/navbar.html"></div> 
-    
+    <div w3-include-html="/includes/navbar.html"></div>
+
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+
+
+<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Sidebar</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="dropdown-toggle">
+        <div class="dropdown-item">
+            <ul>
+             <li>
+                <li><a class="dropdown-item" href="/index.html">Home</a>
+                <li><a class="dropdown-item" href="/about.html">About</a>
+                <li><a class="dropdown-item" href="/Includes/navbar.html">navbar</a>
+                <li><a class="dropdown-item" href="/blog/Christ's.html">Chris's</a>
+                <li><a class="dropdown-item" href="/blog/descence.html">Descence</a>
+                <li><a class="dropdown-item" href="/blog/technology.html">Technology</a>
+                <li><a class="dropdown-item" href="/gallery.html">Gallery</a>
+                <li><a class="dropdown-item" href="/contact-us">Contact us</a>
+             </li>
+             </ul>
+  </div>
+</div>
     <div class="card mb-3" style="max-width: 540px;"></div>
         <div class="row g-0">
           <div class="col-md-6">
-            <img height="570px" src="/Images/img-5.jpg" class="container-fluid" alt="personal">
+            <img height="590px" src="/Images/img-5.jpg" class="container-fluid" alt="personal">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title" >MBABAZI EKEN</h5>
+              <h1 class="card-title" >MBABAZI EKEN</h1>
               <p class="card-text">Iam Mbabazi Eken,a software engineer student at refactory in Javascript and this is my first website using html,cssand bootsrap,
                 iam a christian a follower of Christ,fellowship at Phaneroo ministries international.
             Iam a daughter, a sister, a neighbour, a citizen and a friend.Kind ,devoted,strong and 
             my strength is the LORD my GOD,confident,reserved and honest.
-            I love listening to music of course gospel and some country.music
-        </p>
+            I love listening to music of course gospel and some country music
+          But all in all i love C .O . D. E.        </p>
               <p class="card-text"><small class="text-body-secondary">Jeremiah 32:27</small></p>
             </div>
           </div>

@@ -5,3 +5,25 @@
     font-size: xx-large;
     
 }
+
+.card-header{
+    text-align: center;
+    background-color: brown;
+    margin: auto;
+    padding: auto;
+}
+
+.card-body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    font-style: oblique;
+}
+
+
+h5{
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
